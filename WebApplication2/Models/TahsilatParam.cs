@@ -13,7 +13,7 @@ public partial class TahsilatParam
 
     public decimal ToplamTutar { get; set; }
 
-    public int Urun { get; set; }
+    public int İlgiliSiparis { get; set; }
 
     public int TahsilatTipi { get; set; }
 

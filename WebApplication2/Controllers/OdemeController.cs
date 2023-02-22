@@ -18,7 +18,7 @@ namespace WebApplication2.Controllers
         public IActionResult addNew(OdemeParam vm)
         {
             Odeme m = new Odeme();
-            m.MusteriId = vm.Musteri;
+            m.MusteriId = vm.Kime;
             m.OdemeTarihi = vm.OdemeTarihi;
             m.ParaBirimiId = vm.ParaBirimi;
             m.ToplamTutar = vm.ToplamTutar;

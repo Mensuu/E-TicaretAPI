@@ -7,7 +7,7 @@ public partial class SiparisParam
 {
     public int SiparisId { get; set; }
 
-    public int Musteri { get; set; }
+    public int SiparisVeren { get; set; }
 
     public DateTime? SiparisTarihi { get; set; }
 
@@ -15,7 +15,7 @@ public partial class SiparisParam
 
     public decimal ToplamTutar { get; set; }
 
-    public string? SiparisDetayları { get; set; }
+    public string? SiparisDetaylari { get; set; }
 
     public int SiparisDurumu { get; set; }
 

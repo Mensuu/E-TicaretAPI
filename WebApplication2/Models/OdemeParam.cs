@@ -7,7 +7,7 @@ public partial class OdemeParam
 {
     public int OdemeId { get; set; }
 
-    public int Musteri { get; set; }
+    public int Kime { get; set; }
 
     public DateTime? OdemeTarihi { get; set; }
 

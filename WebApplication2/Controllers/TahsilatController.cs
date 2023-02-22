@@ -21,7 +21,7 @@ namespace WebApplication2.Controllers
             m.MusteriId = vm.Musteri;
             m.ParaBirimiId = vm.ParaBirimi;
             m.ToplamTutar = vm.ToplamTutar;
-            m.UrunId = vm.Urun;
+            m.UrunId = vm.İlgiliSiparis;
             m.TahsilatTipiId = vm.TahsilatTipi;
 
             ETicaretContext ctx = new ETicaretContext();
